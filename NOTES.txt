@@ -1,0 +1,12 @@
+https://stackabuse.com/the-node-js-request-module/
+
+
+https://jj09.net/properly-measuring-http-request-time-with-node-js/
+
+
+https://blog.risingstack.com/measuring-http-timings-node-js/
+
+https://dzone.com/articles/properly-measuring-http-request-time-with-nodejs
+
+
+https://www.lunchbadger.com/blog/tracking-the-performance-of-express-js-routes-and-middleware/

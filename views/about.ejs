@@ -1,0 +1,102 @@
+<link href="/css/style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+
+
+
+<div class="logo">I am your Node Agent 
+    <div class="logo img">
+      
+	  <img src="/images/agentmatrix.jpg" />
+	  
+    </div>
+	
+	  
+ </div>
+ 
+
+  <div class="forcast">
+  
+  <div class="forcast row">
+     <div class="city" style="padding-top:30px;">
+        <li><a href="/about">About</a> </li>
+      </div>
+  </div>
+  
+     
+ 
+   <div class="city" style="padding-top:30px;">
+      Hello Mr. Anderson I am your Node Agent here to monitor your applications performance..I do hope it is up to snuff.
+   </div>
+   
+   
+   <div class="forcast row">
+	 <div class="city" style="padding-top:30px;">
+	 Node Agent Unique Id:
+     <%=metrics.expresrequniqueid%>
+     </div>
+  </div>
+  <div class="forcast row">
+	 <div class="city" style="padding-top:30px;">
+     Number Of Strings In Express Request Object: <%=metrics.expressreqnumstringobj%>
+     </div>
+  </div>
+  <div class="forcast row">
+	 <div class="city" style="padding-top:30px;">
+     Response Time Of Page Request From Start To Finish: <%=metrics.starttofinishresponsetime%>
+     </div>
+	 <div class="city-custom" >
+     Total Duration Of All Page Requests: <%=metrics.durresponsetime%>
+     </div>
+	 <div class="city-custom" >
+     The Shortest Response Of All Pages Requests: <%=metrics.minresponsetime%>
+     </div>
+	 <div class="city-custom" >
+     The Max Response Of All Pages Requests: <%=metrics.maxresponsetime%>
+     </div>
+	 <div class="city-custom" >
+     The Mean Response Of All Pages Requests: <%=metrics.meanresponsetime%>
+     </div>
+	 <div class="city-custom" >
+     The Median Response Of All Pages Requests: <%=metrics.medianresponsetime%>
+     </div>
+	 
+  </div>
+  
+   
+   
+     <div class="forcast row">
+	 <div class="city" style="padding-top:30px;">
+     Memory Usage: 
+     </div>
+	 <div class="city-custom" >
+     memory rss: <%=metrics.memoryrss%>
+     </div>
+	 <div class="city-custom" >
+     memory heaptotal: <%=metrics.memoryheaptotal%>
+     </div>
+	 <div class="city-custom" >
+     memory heapused: <%=metrics.memoryheapused%>
+     </div>
+	 <div class="city-custom" >
+     memory external: <%=metrics.memoryexternal%>
+     </div>
+	 
+  </div>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+  </div>
+     
+ 
+  </div>
+  
+  
+  
+  
